@@ -5,8 +5,8 @@ csvpath = "Resources/budget_data.csv" #relative path for csv file
 with open(csvpath, 'r') as csvfile:
     csvreader = csv.reader(csvfile)
     
-    #skip header row
-    next(csvreader)
+    #store header row
+    csvheader = next(csvreader)
     
     #loop through csv rows
     rowcount = 0
