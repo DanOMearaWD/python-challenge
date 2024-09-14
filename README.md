@@ -6,7 +6,7 @@ budget_data.csv ([PyBank/Resources]):
 This dataset consists of two columns: "Date" and "Profit/Losses". The Python script [PyBank/main.py] processes this file to calculate the following:
 
 Total number of months in the dataset
-Net total amount of "Profit/Losses" over the entire period
+Net total amount of "Profit/Losses" over the entire period\n
 Changes in "Profit/Losses" over the period and the average of these changes
 Greatest increase in profits (date and amount) over the period
 Greatest decrease in profits (date and amount) over the period
