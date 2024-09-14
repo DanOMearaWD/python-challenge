@@ -1,26 +1,23 @@
 # python-challenge
 
-This project analyzes two different .csv files: budget_data.csv [Pybank/Resources], election_data.csv [Pypoll/Resources]
+This project analyzes two different CSV files:
 
-budget_data.csv: This dataset is composed of two columns: "Date" and "Profit/Losses".
-This project uses a Python script [PyBank/main.py] that analyzes the records to calculate each of the following values:
+budget_data.csv ([PyBank/Resources]):
+This dataset consists of two columns: "Date" and "Profit/Losses". The Python script [PyBank/main.py] processes this file to calculate the following:
 
--The total number of months included in the dataset
--The net total amount of "Profit/Losses" over the entire period
--The changes in "Profit/Losses" over the entire period, and then the average of those changes
--The greatest increase in profits (date and amount) over the entire period
--The greatest decrease in profits (date and amount) over the entire period
+Total number of months in the dataset
+Net total amount of "Profit/Losses" over the entire period
+Changes in "Profit/Losses" over the period and the average of these changes
+Greatest increase in profits (date and amount) over the period
+Greatest decrease in profits (date and amount) over the period
+The results are printed to the console and saved in [PyBank/analysis].
 
-The output of [PyBank/main.py] is printed to console and stored in [PyBank/analysis]
+election_data.csv ([PyPoll/Resources]):
+This dataset includes three columns: "Voter ID", "County", and "Candidate". The Python script [PyPoll/main.py] analyzes this data to determine:
 
-
-election_data.csv: This dataset is composed of three columns: "Voter ID", "County", and "Candidate". 
-This project uses a Python script [PyPoll/main.py] that analyzes the votes and calculates each of the following values:
-
--The total number of votes cast
--A complete list of candidates who received votes
--The percentage of votes each candidate won
--The total number of votes each candidate won
--The winner of the election based on popular vote
-
-The output of [PyPoll/main.py] is printed to console and stored in [PyPoll/analysis]
+Total number of votes cast
+Complete list of candidates who received votes
+Percentage of votes each candidate won
+Total number of votes each candidate won
+Winner of the election based on popular vote
+The results are printed to the console and saved in [PyPoll/analysis].
